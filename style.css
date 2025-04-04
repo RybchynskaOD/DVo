@@ -1,0 +1,134 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.bee{
+    position:relative;
+    left: 50px; 
+}
+.container{
+    position: relative;
+    left: 50px; 
+    margin-top: 20px;
+    height: 350px;
+}
+header{
+background-image: linear-gradient(to right, black, white);
+color: black;
+padding: 20px;
+font-size: 24px;
+}
+
+.lol{
+background-image: linear-gradient(to right, black, white);
+padding: 20px;
+}
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: center;
+background: orange;
+}
+nav ul li{
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.products{
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+}
+.image-placeholder{
+background: #ccc;
+height: 100px;
+margin-top: 10px;
+}
+footer{
+background: #222;
+color: white;
+padding: 10px;
+margin-top: 20px;
+}
+nav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+nav a:hover {
+  left: 0;
+}
+.about {
+  margin-top: 20px;
+  background-color: #545554;
+}
+.blog {
+  margin-top: 80px;
+  background-color: #3b3a3a;
+}
+.projects {
+  margin-top: 140px;
+  background-color: #000000;
+}
+.contact {
+  margin-top: 200px;
+  background-color: #555;
+}
+
+.gallery {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 150px;
+    height: 200px;
+}
+
+.gallery img:hover {
+    opacity: 1;
+    border: 6px solid rgb(22, 22, 22);
+    height: 220px;
+    width: 170px;
+    padding: 5px;
+    transition:0.5s ;
+    }
+    a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    box-shadow: 15px 13px 15px orange
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center; 
+  background-color: #000; 
+  color: white; 
+  padding: 10px; 
+}
